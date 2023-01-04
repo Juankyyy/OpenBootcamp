@@ -1,3 +1,3 @@
 # OpenBootcamp
 
-Proyectos y ejercicios realizados de OpenBootcamp
+Proyectos y ejercicios realizados en OpenBootcamp
