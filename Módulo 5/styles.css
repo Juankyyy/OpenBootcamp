@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* .sub {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+} */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+
+.img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.1);
+}
