@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    background-color: #161717;
+    color: white;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: white;
+    background-color: #212121;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    height: 40px;
+    padding: 0px 10px;
+    transition: all 0.3s;
+}
+
+input:hover[type="text"], input:hover[type="email"], input:hover[type="password"] {
+    background-color: #454045;
+    box-shadow: 0px 0px 5px #404141;
+}
+
+.titulo {
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googlebtn {
+    display: flex;
+    align-items: center;
+    background-color: #1A73E8;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.googlebtn:hover {
+    background-color: #0f5abb;
+}
+
+.googlebtn p {
+    margin-right: 20px;
+}
+
+.googlebtn img {
+    height: 18x;
+    width: 18px;
+    padding:8px;
+    margin-left: 3px;
+    background-color: #161717;
+    margin-right: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.twitterbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222424;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.twitterbtn:hover {
+    background-color: #2d3030;
+}
+
+.twitterbtn img {
+    height: 20px;
+    width: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 416px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    width: 104%;
+    color: #827C71;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #35383B;
+    border-radius: 50px;
+}
+
+.nombres {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.nombres input {
+    width: 100%;
+}
+
+.nombres p {
+    margin-bottom: 5px;
+}
+
+.correo {
+    margin-bottom: 45px;
+}
+
+.correo input {
+    width: 100%;
+}
+
+.correo p {
+    margin-bottom: 5px;
+}
+
+.contra {
+    margin-bottom: 25px;
+}
+
+.contra input {
+    width: 100%;
+}
+
+.contra p {
+    margin-bottom: 5px;
+}
+
+.terms {
+    display: flex;
+    align-items: flex-start;
+    color: #afa89b;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.check {
+    margin-right: 13px;
+    height: 20px;
+    width: 20px;
+}
+
+.submitbtn {
+    width: 65%;
+    color: white;
+    height: 45px;
+    background-color: #b41653;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.submitbtn:hover {
+    background-color: #830f3b;
+}
+
+.footer {
+    width: 68%;
+    color: #afa89b;
+    margin-bottom: 75px;
+    font-size: 11px;
+}
