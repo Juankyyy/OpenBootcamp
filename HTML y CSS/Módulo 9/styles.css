@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-modern {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoncito {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkorange;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: all 0.4s 0.05s;
+}
+
+.botoncito:hover {
+    transform: translateY(-5px);
+    background-color: rgb(71, 25, 114);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+}
